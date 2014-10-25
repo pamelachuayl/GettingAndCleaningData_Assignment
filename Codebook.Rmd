@@ -7,20 +7,23 @@ output: pdf_document
 
 ### Data Dictionary 
 
-subject
+subject -
   subject of experiment: there were 30 subjects (volunteers) numbered 1 to 30
   
-activity
+activity -
   activity of experiment: there were 6 different activities carried out
+```{r, eval=FALSE}
     1 WALKING
     2 WALKING_UPSTAIRS
     3 WALKING_DOWNSTAIRS
     4 SITTING
     5 STANDING
     6 LAYING
+```
 
 Feature Fields: the following variables are either the mean or standard deviation of measurements taken in the X, Y or Z directions
 
+```{r, eval=FALSE}
 tBodyAcc_mean_X
 tBodyAcc_mean_Y
 tBodyAcc_mean_Z
@@ -87,3 +90,4 @@ fBodyBodyGyroMag_mean
 fBodyBodyGyroMag_std
 fBodyBodyGyroJerkMag_mean
 fBodyBodyGyroJerkMag_std
+```{r}
