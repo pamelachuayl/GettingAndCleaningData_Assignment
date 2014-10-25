@@ -90,4 +90,4 @@ fBodyBodyGyroMag_mean
 fBodyBodyGyroMag_std
 fBodyBodyGyroJerkMag_mean
 fBodyBodyGyroJerkMag_std
-```{r}
+```
